@@ -1,13 +1,11 @@
-// // HOISTING  in js 
-// // memory creation phase and execution phase
-// //GEC 
+console.log(a); // undefined
+console.log(b); // ReferenceError
 
-// console.log(x)
-// var x = 20;
-// console.log(x)
-// hsoist();
+var a = 5;
+let b = 10;
 
-// function hsoist(){
-//     console.log("hoisting function")
-    
-// }
+function demo() {
+    console.log("Inside demo");
+}
+
+demo();
